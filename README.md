@@ -8,5 +8,6 @@ Abstract
 Some miscellaneous information:
 -  `structured_abstracts_PICO` contains the original abstracts. The line that starts with `###` indicates the PMID. After that line, each line contains the original section heading, the assgined gold label for train and test and the section content, separated by the symbol `|`. To create the gold label, key words in the section heading are checked and the mapping rule can be referred to the paper above-mentioned.
 - `structured_abstracts_sentences_PICO` is almost the same as `structured_abstracts_PICO` except that each section conent is sentence splitted using the [Stanford CoreNLP toolkit](https://stanfordnlp.github.io/CoreNLP/index.html) so that each line has only one sentence and all numbers have been replaced by `@`.
+- The folder `splitted` contains the train, validation and test sets that are randomly splitted from the file `structured_abstracts_sentences_PICO` at the ratio of 8:1:1.
 
 You are most welcome to share with us your analyses or work using this dataset by citing our paper!
