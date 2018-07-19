@@ -1,5 +1,5 @@
 # PubMed PICO Element Detection Dataset
-This dataset is introduced by *Di Jin, Peter Szolovits. PICO Element Detection in Medical Text via Long Short-Term Memory Neural Networks. BioNLP 2018*.
+This dataset is introduced by *[Jin, Di, and Peter Szolovits. "PICO Element Detection in Medical Text via Long Short-Term Memory Neural Networks." Proceedings of the BioNLP 2018 workshop. 2018.](http://www.aclweb.org/anthology/W18-2308)*.
 
 Abstract
 
